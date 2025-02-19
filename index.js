@@ -14,7 +14,7 @@ mongoose
 
 // Middleware
 app.use(
-  cors(*
+  cors(
     // origin: [process.env.CLIENT_URL, process.env.ADMIN_URL],
     // methods: ['GET', 'POST', 'PUT', 'DELETE'],
     // allowedHeaders: ['Content-Type', 'Authorization'],
