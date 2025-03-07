@@ -15,10 +15,10 @@ mongoose
 // Middleware
 app.use(
   cors(
-    // origin: [process.env.CLIENT_URL, process.env.ADMIN_URL],
-    // methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    // allowedHeaders: ['Content-Type', 'Authorization'],
-    // credentials: true
+    origin: [process.env.CLIENT_URL, process.env.ADMIN_URL],
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    credentials: true
   )
 );
 // app.options('*', cors());
